@@ -1,1 +1,35 @@
+body{
+background-image: radial-gradient(circle, #07233b, #111c27);
+}
 
+.center{
+  text-align: center;
+}
+
+header {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 14px;
+  font-weight: 100;
+color: white
+}
+
+a:link    { color: #ffffff;  }
+a:visited { color: #fcfdfc;   }
+
+h2{
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
+.welcome-message{
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif; 
+  font-size: 13px;
+  color: white;
+}
+.about-me{
+  text-align: center;
+font-family: Georgia, 'Times New Roman', Times, serif;  
+  font-size: 13px;
+  color: white;
+}
