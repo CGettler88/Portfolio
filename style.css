@@ -1,25 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Architects+Daughter');
 
 body{
-background-image: radial-gradient(circle, #07233b, #111c27);
+background-image: radial-gradient(circle, #396184, #111c27);
 }
 
 .center{
   text-align: center;
 }
 
-header {
+h1,h6,nav {
   font-family: 'Architects Daughter', cursive;
-  font-size: 14px;
   font-weight: 100;
 color: white
 }
+
 
 a:link    { color: #ffffff;  }
 a:visited { color: #fcfdfc;   }
 
 h2{
   font-family: 'Architects Daughter', cursive;;
+  border-style: double;
   color: white;
   font-size: 18px;
   text-align: center;
@@ -36,20 +37,32 @@ font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 13px;
   color: white;
 }
+
 ul{
-  text-align: left;
+  font-family: Georgia, 'Times New Roman', Times;
+  font-size: 13px;
+  text-align: center;
+  display: inline;
   color: white;
 }
-.contact{
-  color: white;
+
+
+
+.contact-me{
+    font-family: Georgia, 'Times New Roman', Times;
+  font-size: 13px;
+ color: white;
   text-align: center;
 }
 ol{
+  color: white;
+  display: inline-block;
   text-align: left;
 }
 
-footer {
-  text-align:center ;
-  color:white ;
+footer{
+  font-size: 10px;
+  text-align:center;
+  color:white;
   background-color: #40505e;
 }
